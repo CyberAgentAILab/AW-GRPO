@@ -1,0 +1,33 @@
+--index-url https://download.pytorch.org/whl/cu124
+--extra-index-url https://pypi.org/simple
+
+torch==2.5.1+cu124
+py7zr==0.22.0
+datasets==3.3.2
+einops==0.8.1
+accelerate==1.4.0
+bitsandbytes==0.45.3
+evaluate==0.4.3
+bert_score==0.3.13
+absl-py==2.1.0
+nltk==3.9.1
+rouge-score==0.1.2
+sacremoses==0.1.1
+sortedcontainers==2.4.0
+subword-nmt==0.3.8
+scikit-learn-extra==0.3.0
+torchmetrics==0.10.3
+peft==0.14.0
+llm-blender==0.0.2
+tensorboard==2.19.0
+vllm==0.7.3
+sacrebleu[ja]
+jreadability
+fugashi[unidic-lite] 
+git+https://github.com/lucadiliello/bleurt-pytorch.git
+sentence-transformers==2.6.0
+hf_xet==1.1.10
+unsloth==2025.3.18
+unsloth_zoo==2025.3.16
+trl==0.15.2
+transformers==4.49.0
